@@ -1,0 +1,87 @@
+---
+title: "R vectors"
+author: "SHA"
+date: "January 21, 2018"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown vectors
+# Creation of a vector
+```{r}
+sha <- c(3,5,2,7,9,12,15,18,20,25)
+```
+# find max value in vector
+```{r}
+max(sha)
+```
+# find min value in vector
+```{r}
+min(sha)
+
+```
+# find range of a vector
+```{r}
+range(sha)
+```
+# find sum value in vector
+```{r}
+sum(sha)
+```
+# find length of the vector
+```{r}
+length(sha)
+```
+```{r}
+Mean_sha = sum(sha)/10
+```
+```{r}
+sha+2
+```
+```{r}
+sha*2
+```
+```{r}
+sha^2
+```
+#third element in a vector
+```{r}
+sha[3]
+```
+# fourth to eighth element in a vector
+```{r}
+sha[4:8]
+```
+# Drop the first element in a vector
+```{r}
+sha[-1]
+```
+```{r}
+sha[-3]
+```
+#Drop the last element of the vector
+```{r}
+sha[-length(sha)]
+```
+```{r}
+sha
+```
+# concatenate sha and ssv
+ 
+```{r}
+ssv <- c(1,2,3,4,5,6,7,8,9,10)
+```
+```{r}
+sha_ssv <- c(sha,ssv)
+```
+```{r}
+sha_ssv
+```
+
+
+
+
+
